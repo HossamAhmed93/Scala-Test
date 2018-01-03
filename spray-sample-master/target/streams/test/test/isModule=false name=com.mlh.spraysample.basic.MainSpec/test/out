@@ -1,0 +1,24 @@
+[0m[[0minfo[0m] [0m[32mMainSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA function[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return factorial of int number[0m[0m
+[0m[[0minfo[0m] [0m[32mA function[0m[0m
+[0m[[0minfo[0m] [0m[32m- should if reads the same backward or forward of string[0m[0m
+[0m[[0minfo[0m] [0m[32mA function[0m[0m
+[0m[[0minfo[0m] [0m[32m- should encoding function[0m[0m
+[0m[[0minfo[0m] [0m[32mA function[0m[0m
+[0m[[0minfo[0m] [0m[32m- should Decoding function[0m[0m
+[0m[[0minfo[0m] [0m[32mA function[0m[0m
+[0m[[0minfo[0m] [0m[32m- should Compose function[0m[0m
+[0m[[0minfo[0m] [0m[31mException encountered when attempting to run a suite with class name: com.mlh.spraysample.basic.MainSpec *** ABORTED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.NoSuchMethodError: akka.actor.ActorSystem.shutdown()V[0m[0m
+[0m[[0minfo[0m] [0m[31m  at spray.testkit.RouteTest$class.cleanUp(RouteTest.scala:47)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.mlh.spraysample.basic.MainSpec.cleanUp(BasicSampleSpec.scala:8)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at spray.testkit.ScalatestInterface$class.afterAll(ScalatestInterface.scala:28)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.mlh.spraysample.basic.MainSpec.afterAll(BasicSampleSpec.scala:8)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.BeforeAndAfterAll$class.afterAll(BeforeAndAfterAll.scala:213)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.mlh.spraysample.basic.MainSpec.afterAll(BasicSampleSpec.scala:8)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.BeforeAndAfterAll$$anonfun$run$1.apply(BeforeAndAfterAll.scala:280)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.BeforeAndAfterAll$$anonfun$run$1.apply(BeforeAndAfterAll.scala:278)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.CompositeStatus.whenCompleted(Status.scala:377)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.BeforeAndAfterAll$class.run(BeforeAndAfterAll.scala:278)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

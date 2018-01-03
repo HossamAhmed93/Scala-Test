@@ -39,7 +39,7 @@ object Main extends App {
     val strLength = str.length()
     val strMiddle:Int = strLength/2;
     var returnValue:Boolean = false;
-    if(strMiddle>1){
+    if(strLength>2){
       for (loopCount <- 0 to strMiddle){
         if(str.charAt(loopCount)==str.charAt(strLength-loopCount-1))
           returnValue = true

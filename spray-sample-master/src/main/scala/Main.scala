@@ -47,7 +47,7 @@ object Main extends App {
           return returnValue
       }
     }else if(strLength==1)
-      returnValue == true
+      returnValue = true
     returnValue
   }
 
